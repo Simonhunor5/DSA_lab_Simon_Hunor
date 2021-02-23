@@ -7,7 +7,7 @@
 
 int main() {
 
-    clock_t begin = clock();
+
 
     int n, x;
 
@@ -24,25 +24,32 @@ int main() {
     printf("Item=");
     scanf("%i", &x);
 
-    int result = linearSearch(arr, n, x);
+    clock_t begin = clock();
 
-    if(result == -1)
+    struct LinearSearchResult result = linearSearch(arr, n, x);
+
+    clock_t end = clock();
+
+    if(result.i == -1)
     {
         printf("Item was not found\n");
     }else
     {
-        printf("The location of the element is: %i\n", result);
+        printf("The location of the element is: %i\n", result.i);
     }
 
 
     free(arr);
 
-    clock_t end = clock();
+    printf("The number of operations: %ld\n", result.count);
+
+
 
     double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
 
+
     printf("The spent: %f\n", time_spent);
-    printf("The number of operations: %f", time_spent*(2*pow(10,8)));
+
 
     return 0;
 }

@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
+
 void fillArr(int* arr, int n)
 {
     int top = n, bot = 1;
@@ -25,15 +27,20 @@ void printArr(int* arr, int n)
     printf("\n");
 }
 
-int linearSearch(int* arr, int n, int x)
+struct LinearSearchResult linearSearch(int* arr, int n, int x)
 {
+    struct LinearSearchResult result;
+    result.count = 0;
     for(int i = 0; i < n; i++)
     {
-        if(*(arr + i) == x)
-        {
-            return i;
-        }
-    }
+        result.count++;
 
-    return -1;
+        if(*(arr + i) == x) {
+            result.i = i;
+            return result;
+        }
+
+    }
+    result.i = -1;
+    return result;
 }
