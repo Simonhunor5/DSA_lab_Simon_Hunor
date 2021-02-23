@@ -5,6 +5,9 @@
 #include "functions.h"
 
 int main() {
+
+    clock_t begin = clock();
+
     int n, x;
 
     printf("n=");
@@ -24,14 +27,20 @@ int main() {
 
     if(result == -1)
     {
-        printf("Item was not found");
+        printf("Item was not found\n");
     }else
     {
-        printf("The location of the element is: %i", result);
+        printf("The location of the element is: %i\n", result);
     }
 
 
     free(arr);
+
+    clock_t end = clock();
+
+    double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+    printf("The spent: %f\n", time_spent);
 
     return 0;
 }
