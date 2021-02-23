@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "math.h"
 
 #include "functions.h"
 
@@ -41,6 +42,7 @@ int main() {
     double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
 
     printf("The spent: %f\n", time_spent);
+    printf("The number of operations: %f", time_spent*(2*pow(10,8)));
 
     return 0;
 }

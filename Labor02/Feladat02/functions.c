@@ -8,7 +8,7 @@
 
 void fillArr(int* arr, int n)
 {
-    int top = 100, bot = 0;
+    int top = n, bot = 1;
     for(int i = 0; i < n; i++)
     {
         *(arr + i) = (rand() % (top - bot + 1)) + bot;
