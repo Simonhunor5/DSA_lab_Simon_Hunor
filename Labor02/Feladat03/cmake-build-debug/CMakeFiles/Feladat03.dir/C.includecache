@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor02/Feladat03/functions.h
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor02/Feladat03/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+math.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor02/Feladat03/math.h
+functions.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor02/Feladat03/functions.h
+
