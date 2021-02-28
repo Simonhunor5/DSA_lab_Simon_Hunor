@@ -7,7 +7,7 @@
 
 int main() {
 
-
+    clock_t begin = clock();
 
     int n, x;
 
@@ -24,11 +24,11 @@ int main() {
     printf("Item=");
     scanf("%i", &x);
 
-    clock_t begin = clock();
+
 
     struct LinearSearchResult result = linearSearch(arr, n, x);
 
-    clock_t end = clock();
+
 
     if(result.i == -1)
     {
@@ -37,6 +37,8 @@ int main() {
     {
         printf("The location of the element is: %i\n", result.i);
     }
+
+    clock_t end = clock();
 
 
     free(arr);
