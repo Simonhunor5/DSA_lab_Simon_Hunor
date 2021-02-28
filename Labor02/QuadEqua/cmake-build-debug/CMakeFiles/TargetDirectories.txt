@@ -1,0 +1,3 @@
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor02/QuadEqua/cmake-build-debug/CMakeFiles/QuadEqua.dir
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor02/QuadEqua/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor02/QuadEqua/cmake-build-debug/CMakeFiles/rebuild_cache.dir
