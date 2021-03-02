@@ -7,7 +7,7 @@
 
 int main() {
 
-    clock_t begin = clock();
+
 
     int n, x;
 
@@ -31,6 +31,7 @@ int main() {
     printf("Item=");
     scanf("%i", &x);
 
+    clock_t begin = clock();
 
     struct BinarySearchResult result = binarySearch(arr, 0, n - 1, x, n);
 
