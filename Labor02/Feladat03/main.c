@@ -32,7 +32,7 @@ int main() {
     scanf("%i", &x);
 
 
-    struct BinarySearchResult result = binarySearch(arr, 0, n - 1, x);
+    struct BinarySearchResult result = binarySearch(arr, 0, n - 1, x, n);
 
 
 

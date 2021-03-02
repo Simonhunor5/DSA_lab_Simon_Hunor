@@ -27,14 +27,17 @@ void printArr(int* arr, int n)
     printf("\n");
 }
 
-struct BinarySearchResult binarySearch(int* arr, int l, int r, int x)
+struct BinarySearchResult binarySearch(int* arr, int l, int r, int x, int n)
 {
     struct BinarySearchResult mid;
+    if(l == 0  && r == n)
+    {
+        mid.count = 0;
+    }
     if (r >= l) {
 
 
         mid.i =  l + (r - l) / 2;
-        mid.count = 0;
 
 
         if (*(arr + mid.i) == x)
@@ -46,11 +49,11 @@ struct BinarySearchResult binarySearch(int* arr, int l, int r, int x)
         if (*(arr + mid.i) > x)
         {
             mid.count++;
-            return binarySearch(arr, l, mid.i - 1, x);
+            return binarySearch(arr, l, mid.i - 1, x, n);
         }
 
         mid.count++;
-        return binarySearch(arr, mid.i + 1, r, x);
+        return binarySearch(arr, mid.i + 1, r, x, n);
 
     }
 

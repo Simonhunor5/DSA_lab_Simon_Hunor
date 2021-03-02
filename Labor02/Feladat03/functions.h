@@ -13,6 +13,6 @@ typedef struct BinarySearchResult{
 void fillArr(int* arr, int n);
 void printArr(int* arr, int n);
 int cmpfunc (const void * a, const void * b);
-struct BinarySearchResult binarySearch(int* arr, int l, int r, int x);
+struct BinarySearchResult binarySearch(int* arr, int l, int r, int x, int n);
 
 #endif //FELADAT03_FUNCTIONS_H
