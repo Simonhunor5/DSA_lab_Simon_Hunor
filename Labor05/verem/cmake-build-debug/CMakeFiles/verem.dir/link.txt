@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\verem.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\verem.dir/objects.a @CMakeFiles\verem.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\verem.dir/objects.a -Wl,--no-whole-archive  -o verem.exe -Wl,--out-implib,libverem.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\verem.dir\linklibs.rsp

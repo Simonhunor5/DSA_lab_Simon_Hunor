@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor05/verem/function.c
+function.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor05/verem/function.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor05/verem/function.h
+stdbool.h
+-
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor05/verem/main.c
+stdio.h
+-
+function.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor05/verem/function.h
+
