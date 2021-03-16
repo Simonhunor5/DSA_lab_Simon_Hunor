@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor04/Matrix/functions.c
+stdlib.h
+-
+stdio.h
+-
+functions.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor04/Matrix/functions.h
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor04/Matrix/functions.h
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor04/Matrix/main.c
+stdio.h
+-
+functions.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor04/Matrix/functions.h
+
