@@ -15,6 +15,5 @@ int main() {
     printf("Minimum: %i", minimum(matrix));
 
     return 0;
-
-    return 0;
+    
 }
