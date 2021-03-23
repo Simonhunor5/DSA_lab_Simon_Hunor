@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor05/QueueStatic/functions.c
+stdio.h
+-
+stdlib.h
+-
+functions.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor05/QueueStatic/functions.h
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor05/QueueStatic/functions.h
+stdbool.h
+-
+
