@@ -8,15 +8,24 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-struct Node{
+typedef struct {
     int age;
     char firstname[20];
+}Person;
+
+
+typedef struct{
+    Person person;
     struct Node* next;
 }Node ;
 
 
-
-struct Node* fill(FILE* filename);
-void printList();
+Node* create();
+Node* getLast(Node* first);
+Node* getI(int i, Node* first);
+//void push(Node** head, Person data);
+void push(Node* first, Person person);
+Person* pop(Node* first);
+void printList(struct Node* head);
 
 #endif //LINKEDLIST_FUNCTIONS_H

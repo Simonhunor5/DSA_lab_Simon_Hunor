@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Linkedlist/functions.c
-functions.h
-C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Linkedlist/functions.h
-string.h
--
-
 C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Linkedlist/functions.h
 stdlib.h
 -
@@ -20,6 +14,8 @@ stdio.h
 
 C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Linkedlist/main.c
 stdio.h
+-
+stdlib.h
 -
 functions.h
 C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Linkedlist/functions.h
