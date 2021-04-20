@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Felmero/Kettes/functions.c
+functions.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Felmero/Kettes/functions.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Felmero/Kettes/functions.h
+
