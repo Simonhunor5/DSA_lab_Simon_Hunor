@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor10/BinarySearchTree/functions.c
+functions.h
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor10/BinarySearchTree/functions.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/simon/Documents/DSA_lab/DSA_lab_Simon_Hunor/Labor10/BinarySearchTree/functions.h
+
